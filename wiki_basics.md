@@ -26,6 +26,6 @@
          
      _must be same info than the cite template_
 * __Easy way to quote a newspaper or a website :__
-*               <ref>[adress text], sur [[paper name]], le date (consulté le date).</ref>
+               <ref>[adress text], sur [[paper name]], le date (consulté le date).</ref>
 
 -----------------
