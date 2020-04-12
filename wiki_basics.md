@@ -36,6 +36,6 @@
   * __Easy way to quote a newspaper or a website :__
   ```HTML
   <ref>[adress text], sur [[paper name]], le paper's date (consulté le date).</ref>
-  ``
+  ```
 
 -----------------
