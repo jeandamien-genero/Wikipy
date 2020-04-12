@@ -2,31 +2,35 @@
 
 ## Templates (Footnotes)
 
-  * __Legifrance [Doc](https://fr.wikipedia.org/wiki/Mod%C3%A8le:L%C3%A9gifrance) :__
+  * __Legifrance ([doc](https://fr.wikipedia.org/wiki/Mod%C3%A8le:L%C3%A9gifrance)) :__
+  ```HTML
+  <ref>{{Légifrance|base=JORF|numéro=NOR|texte=titre}}.</ref>
+  ```
 
-```<ref>{{Légifrance|base=JORF|numéro=NOR|texte=titre}}.</ref>```
+  * __Cite book ([doc](https://fr.wikipedia.org/wiki/Mod%C3%A8le:Ouvrage)) :__
+  ```HTML
+  <ref>{{Ouvrage |langue=fr |auteur1= |titre= |sous-titre= |éditeur= |collection= |lieu= |année= |volume= |tome= |pages totales= |passage= |isbn= |lire en ligne= }}.</ref>
+  ```
 
-* __Cite book (template) :__
+  * __Cite chapter ([doc](https://fr.wikipedia.org/wiki/Mod%C3%A8le:Chapitre)) :__
+ ```HTML
+ <ref>{{Chapitre |langue=fr |auteur1= |titre chapitre= |auteurs ouvrage= |titre ouvrage= |lieu= |éditeur= |année= |isbn= |lire en ligne= |passage= }}.</ref>
+ ```
 
-{{Ouvrage |langue= |auteur1= |titre= |sous-titre= |éditeur= |collection= |lieu= |année= |volume= |tome= |pages totales= |passage= |isbn= |lire en ligne= }}.
-* [Doc:cite_book](https://fr.wikipedia.org/wiki/Mod%C3%A8le:Ouvrage)
+  * __Cite journal ([doc](https://fr.wikipedia.org/wiki/Mod%C3%A8le:Article)) :__
+  ```HTML
+  <ref>{{Article |langue=fr |auteur1= |titre= |périodique= |date= |lire en ligne= |consulté le= }}.</ref>
+  ``` 
 
-* __Cite chapter (template) :__
-{{Chapitre |langue= |auteur1= |titre chapitre= |auteurs ouvrage= |titre ouvrage= |lieu= |éditeur= |année= |isbn= |lire en ligne= |passage= }}.
-* [Doc:cite_chapter](https://fr.wikipedia.org/wiki/Mod%C3%A8le:Chapitre)
-* __Cite journal (template) :__
+  * __Harvard footnotes ([doc](https://fr.wikipedia.org/wiki/Mod%C3%A8le:R%C3%A9f%C3%A9rence_Harvard)) :__
+  ```HTML
+  <ref>{{harvsp|author name|year|p=page}}</ref>
+  ```
+  _must be same info than the cite template_
 
-{{Article |langue= |auteur1= |titre= |périodique= |volume= |numéro= |date= |pages= |issn= |e-issn= |lire en ligne= |consulté le= 15 décembre 2019 |id= }}. 
-    * [Doc:cite_journal](https://fr.wikipedia.org/wiki/Mod%C3%A8le:Article)
-* __Harvard footnotes :__
-
-<ref>{{harvsp|author name|year|p=page}}</ref>
-    
-* [Doc:harvard_footnotes](https://fr.wikipedia.org/wiki/Mod%C3%A8le:R%C3%A9f%C3%A9rence_Harvard)
-         
-_must be same info than the cite template_
-* __Easy way to quote a newspaper or a website :__
-
-<ref>[adress text], sur [[paper name]], le date (consulté le date).</ref>
+  * __Easy way to quote a newspaper or a website :__
+  ```HTML
+  <ref>[adress text], sur [[paper name]], le date (consulté le date).</ref>
+  ```
 
 -----------------
