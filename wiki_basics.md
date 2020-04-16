@@ -30,7 +30,7 @@
 
   * __Cite web ([doc](https://en.wikipedia.org/wiki/Template:Cite_web)) :__
   ```HTML
-  <ref>{{Lien web |langue= |auteur= |titre= |url= |date= |site= |consulté le= 12 avril 2020}}.</ref>
+  <ref>{{Lien web |langue= |auteur= |titre= |url= |date= |site= |consulté le=}}.</ref>
   ```
 
   * __Easy way to quote a newspaper or a website :__
