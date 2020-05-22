@@ -1,1 +1,6 @@
 .DS_Store
+
+ci-test.sh
+pylintrc
+requirements.txt
+notes_git.md
