@@ -1,13 +1,12 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-
 """
     Script that replaces the cite journal template by the legifrance template when links
     to the website of official french laws and decrees (www.legifrance.gouv.fr.).
-    
-    Exemples : 
-    
+
+    Exemples :
+
         <ref name="promo">
             {{Article |titre=Décret du XX month XXXX \\w |périodique=Journal officiel de la
             République française |numéro=\\d\\d |jour=\\d\\d |mois=month |année=\\d\\d\\d\\d
