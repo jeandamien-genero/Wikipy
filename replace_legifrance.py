@@ -8,17 +8,17 @@
     
     Exemples : 
     
-    <ref name="promo">
-        {{Article |titre=Décret du XX month XXXX \\w |périodique=Journal officiel de la
-        République française |numéro=\\d\\d |jour=\\d\\d |mois=month |année=\\d\\d\\d\\d
-        |lire en ligne=https://www.legifrance.gouv.fr/\\w+}}.
-    </ref>
+        <ref name="promo">
+            {{Article |titre=Décret du XX month XXXX \\w |périodique=Journal officiel de la
+            République française |numéro=\\d\\d |jour=\\d\\d |mois=month |année=\\d\\d\\d\\d
+            |lire en ligne=https://www.legifrance.gouv.fr/\\w+}}.
+        </ref>
 
     will be replaced by
 
-    <ref name="promo">
-        {{Légifrance|base=JORF|numéro=\\w+|texte=Décret du XX month XXXX \\w}}.
-    </ref>
+        <ref name="promo">
+            {{Légifrance|base=JORF|numéro=\\w+|texte=Décret du XX month XXXX \\w}}.
+        </ref>
 
     author : Jean-Damien Généro
     date : 22 mai 2020
