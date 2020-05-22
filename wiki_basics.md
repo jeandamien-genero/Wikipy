@@ -6,7 +6,12 @@
   ```HTML
   <ref>{{Légifrance|base=JORF|numéro=NOR|texte=titre}}.</ref>
   ```
-
+  * __Nomination ([doc](https://fr.wikipedia.org/wiki/Mod%C3%A8le:Nominations_CRCM)) :__
+  ```HTML
+  {{Nominations CRCM|d|m|y}}
+  ```
+  _The ```<ref>``` markup is not necessary here._
+  
   * __Cite book ([doc](https://fr.wikipedia.org/wiki/Mod%C3%A8le:Ouvrage)) :__
   ```HTML
   <ref>{{Ouvrage |langue=fr |auteur1= |titre= |sous-titre= |éditeur= |collection= |lieu= |année= |volume= |tome= |pages totales= |passage= |isbn= |lire en ligne= }}.</ref>
@@ -31,11 +36,6 @@
   * __Cite web ([doc](https://en.wikipedia.org/wiki/Template:Cite_web)) :__
   ```HTML
   <ref>{{Lien web |langue= |auteur= |titre= |url= |date= |site= |consulté le=}}.</ref>
-  ```
-
-  * __Easy way to quote a newspaper or a website :__
-  ```HTML
-  <ref>[adress text], sur [[paper name]], le paper's date (consulté le date).</ref>
   ```
 
 -----------------
