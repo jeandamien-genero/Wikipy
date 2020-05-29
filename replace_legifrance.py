@@ -2,10 +2,10 @@
 # -*- coding: UTF-8 -*-
 
 """
-    Script that replaces the cite journal template by the legifrance template when links
-    to the website of official french laws and decrees (www.legifrance.gouv.fr.).
+    Script that replaces any refs that links to the website of official french laws
+    and decrees (www.legifrance.gouv.fr.) by the french wikipedia legifrance template.
 
-    Exemples :
+    Exemple :
 
         <ref name="promo">
             {{Article |titre=Décret du XX month XXXX \\w |périodique=Journal officiel de la
