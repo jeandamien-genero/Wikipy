@@ -85,6 +85,13 @@ def ambassadors(json_url):
 
 
 def updating_ambassadors(article, unwanted_changes) -> None:
+    """Updating wp:fr page "Liste des actuels ambassadeurs français"
+    :param article: wp page name
+    :type article: str
+    :param unwanted_changes: list of countries that will not be changed
+    :type unwanted_changes: list
+    :return: none
+    """
     site = pywikibot.Site()
     page = pywikibot.Page(site, article)
     MAJ = []
