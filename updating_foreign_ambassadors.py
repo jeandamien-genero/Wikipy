@@ -84,8 +84,6 @@ def updating_page(date, jorf_id) -> None:
     # updating the update date at the top of the page
     page.text = re.sub(r"La liste qui suit a été mise à jour après la cérémonie de remise de lettres de créance du \d+ [\wéèû]+ \d+",
                        "La liste qui suit a été mise à jour après la cérémonie de remise de lettres de créance du " + alpha_date, page.text)
-    # with open("/Users/jdgenero/Desktop/ICICICI.txt", 'w', encoding='utf-8') as writting:
-        # writting.write(page.text)
     maj_list = "mise à jour automatique : {}".format(", ".join(maj))
     page.save(maj_list)
     print(maj_list)
